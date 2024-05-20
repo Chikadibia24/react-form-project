@@ -50,7 +50,7 @@ function Form() {
   return (
     <form
       className="form"
-      autocomplete="on"
+      autoComplete="on"
       onSubmit={(e) => handleSubmit(e)}
     >
       <h1>Please Fill This Form:</h1>
